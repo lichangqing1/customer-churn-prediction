@@ -205,6 +205,8 @@ Failed quality checks
 
 Then map each label to a pass/fail measure.
 
+In the current dashboard, all five helper measures display `1`, meaning each condition passed. For the `Failed quality checks` helper, `1` means the underlying failed-check count equals zero; it does not mean that one check failed.
+
 ### Detail table
 
 Include:
@@ -220,6 +222,8 @@ customer_unique_passed
 required_null_check_passed
 referential_integrity_passed
 ```
+
+The current screenshot shows `Passed`, 7,043 rows at each Raw/Silver/Fact layer, zero failed checks, and zero reconciliation variance. These values should remain synchronized across the KPI cards, charts, and detail table.
 
 ---
 

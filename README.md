@@ -41,6 +41,12 @@ The warehouse contains all 7,043 customers. Revenue-at-risk and retention-action
 |---|---|
 | ![Retention Action Queue](docs/screenshots/powerbi_retention_action_queue.png) | ![Data Quality Monitor](docs/screenshots/powerbi_data_quality_monitor.png) |
 
+### Segment analysis
+
+![Churned Customer Analysis](docs/screenshots/powerbi_churned_customer_analysis.png)
+
+The current dashboard highlights month-to-month contracts, electronic-check payments, and fiber-optic service as the main concentration of churn and revenue exposure. The action queue contains 1,409 scored customers, including 139 P1 customers, with an estimated $8,440.50 in monthly saved revenue under the 20% intervention-success scenario.
+
 See the [Power BI dashboard guide](docs/POWERBI_DASHBOARD_GUIDE.md) for page design, measures, and data mapping.
 
 ## Architecture

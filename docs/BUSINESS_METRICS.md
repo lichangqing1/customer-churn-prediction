@@ -107,6 +107,16 @@ Current expected value:
 Total revenue at risk ≈ 42,202.51
 ```
 
+Current dashboard breakdowns:
+
+| Dimension | Largest exposure | Revenue at risk |
+|---|---|---:|
+| Contract | Month-to-month | 34,486.53 |
+| Payment method | Electronic check | 23,448.95 |
+| Internet service | Fiber optic | 32,949.19 |
+
+Across the 1,409 scored customers, the current dashboard shows a 41.35% average churn probability and a $64.09 average monthly charge.
+
 ---
 
 ## Retention action metrics
@@ -122,6 +132,16 @@ This mart extends `mart_revenue_at_risk` with priority and action columns.
 | `estimated_saved_revenue` | `revenue_at_risk × 0.20` | Planning estimate assuming 20% campaign success |
 | `risk_level` | Based on churn probability | High, Medium, or Low Risk |
 | `recommended_action` | Rule-based action | Suggested retention intervention |
+
+Current operational totals:
+
+| Metric | Value |
+|---|---:|
+| Customers in action queue | 1,409 |
+| P1 customers | 139 |
+| P2 customers | 385 |
+| P3 customers | 885 |
+| Estimated saved revenue at 20% success | 8,440.50 |
 
 Risk-level rules:
 

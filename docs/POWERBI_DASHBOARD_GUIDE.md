@@ -196,6 +196,11 @@ Average Churn Probability =
 AVERAGE(mart_revenue_at_risk[churn_probability])
 ```
 
+```DAX
+Average Monthly Charge Risk =
+AVERAGE(mart_revenue_at_risk[monthly_charges])
+```
+
 ### Retention action queue
 
 ```DAX
@@ -222,6 +227,11 @@ CALCULATE(
 ```DAX
 Estimated Saved Revenue =
 SUM(mart_retention_actions[estimated_saved_revenue])
+```
+
+```DAX
+Action Queue Revenue at Risk =
+SUM(mart_retention_actions[revenue_at_risk])
 ```
 
 ### Data quality monitor
@@ -283,7 +293,7 @@ Recommended visuals:
 | Bar chart | `contract` vs `Total Revenue at Risk` from `mart_revenue_at_risk` |
 | Bar chart | `payment_method` vs `Total Revenue at Risk` from `mart_revenue_at_risk` |
 | Donut chart | `risk_level` count of `customer_id` from `mart_retention_actions` |
-| Column chart | `retention_priority` count of `customer_id` from `mart_retention_actions` |
+| Donut chart | `retention_priority` count of `customer_id` from `mart_retention_actions` |
 
 Expected key values:
 
@@ -294,6 +304,17 @@ Total monthly revenue: 456,116.60
 Revenue at risk: ~42,202.51
 High-risk customers: 350
 ```
+
+The current screenshot also shows:
+
+```text
+Revenue at risk by contract: Month-to-month $34,486.53; One year $5,620.94; Two year $2,095.04
+Revenue at risk by payment: Electronic check $23,448.95; Credit card $6,707.76; Bank transfer $6,309.57; Mailed check $5,736.24
+Risk distribution: Low 716; Medium 343; High 350
+Priority distribution: P1 139; P2 385; P3 885
+```
+
+Interpretation: month-to-month and electronic-check customers create the largest exposure. Retention teams should begin with P1 and high-risk customers.
 
 ---
 
@@ -334,6 +355,7 @@ Recommended visuals:
 | Bar chart | `segment_value` vs `Estimated Churned Customers` |
 | Bar chart | `segment_value` vs `churn_rate` |
 | Bar chart | `segment_value` vs `customers` |
+| Scatter chart | `customers` vs `churn_rate`, with `segment_value` as detail |
 | Table | `segment_type`, `segment_value`, `customers`, `churn_rate`, `Estimated Churned Customers`, `avg_monthly_charges` |
 
 Important:
@@ -343,6 +365,8 @@ Do not analyze all segment_type values together because customers are repeated a
 ```
 
 Use the slicer to view one segment type at a time.
+
+With `combined_risk_segment` selected, the current screenshot reports 7,025 segment customers, approximately 1,869 churned customers, a 26.60% weighted churn rate, and a 60.37% highest segment churn rate. The leading segment is `Month-to-month | Electronic check | Fiber optic`, with 1,307 customers, an estimated 789 churned customers, and an $87.18 average monthly charge.
 
 ---
 
@@ -367,7 +391,7 @@ Recommended visuals:
 | KPI card | `Total Revenue at Risk` |
 | KPI card | `Customers at Risk` |
 | KPI card | `Average Churn Probability` |
-| KPI card | average of `monthly_charges` |
+| KPI card | `Average Monthly Charge Risk` |
 | Bar chart | `contract` vs `Total Revenue at Risk` |
 | Bar chart | `payment_method` vs `Total Revenue at Risk` |
 | Bar chart | `internet_service` vs `Total Revenue at Risk` |
@@ -385,6 +409,18 @@ Expected insight:
 
 ```text
 Month-to-month contracts and electronic-check customers carry the largest revenue-at-risk exposure.
+```
+
+Current unfiltered screenshot values:
+
+```text
+Total revenue at risk: $42,202.51
+Customers at risk: 1,409
+Average churn probability: 41.35%
+Average monthly charge: $64.09
+Fiber-optic revenue at risk: $32,949.19
+DSL revenue at risk: $8,276.71
+No-internet revenue at risk: $976.61
 ```
 
 ---
@@ -411,6 +447,7 @@ Recommended visuals:
 | KPI card | `P1 Customers` |
 | KPI card | sum of `revenue_at_risk` |
 | KPI card | `Estimated Saved Revenue` |
+| KPI card | average of `churn_probability` |
 | Column or donut chart | `retention_priority` count of `customer_id` |
 | Donut chart | `risk_level` count of `customer_id` |
 | Bar chart | `recommended_action` count of `customer_id` |
@@ -429,6 +466,8 @@ Recommended table sort:
 ```text
 retention_priority_score descending
 ```
+
+The current unfiltered screenshot reports 1,409 customers in the queue, 139 P1 customers, $42,202.51 in revenue at risk, $8,440.50 in estimated saved revenue, and a 41.35% average churn probability. Action counts are 716 for normal monitoring, 348 for long-term contract offers, 343 for proactive service follow-up, and 2 for priority outreach.
 
 ---
 
@@ -469,6 +508,8 @@ Fact rows: 7,043
 Failed checks: 0
 Reconciliation variance: 0
 ```
+
+The screenshot presents the same evidence as six KPI cards, a Raw/Silver/Fact row-count chart, a five-check pass-status chart, and a one-row detail table. A value of `1` in the pass-status chart means the named condition passed; the `Failed quality checks` helper item evaluates to `1` when the failed-check count is zero.
 
 ---
 
