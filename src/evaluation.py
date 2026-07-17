@@ -2,7 +2,6 @@
 
 import pandas as pd
 from src.scoring import create_risk_table as _create_risk_table
-from src.retention_recommendations import add_retention_recommendations
 
 from sklearn.metrics import (
     accuracy_score,
@@ -83,7 +82,7 @@ def create_risk_table(
     threshold_medium: float = 0.40
 ) -> pd.DataFrame:
     """
-    Create customer-level churn risk table.
+    Backward-compatible wrapper for the scoring module's risk-table builder.
     """
     return _create_risk_table(
         X_test, customer_ids, y_test, y_proba, threshold_high, threshold_medium

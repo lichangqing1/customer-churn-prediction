@@ -9,7 +9,6 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.pipeline import Pipeline
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
-from xgboost import XGBClassifier
 
 
 def split_features_target(
@@ -96,27 +95,6 @@ def create_random_forest_model(preprocessor, random_state: int = 42):
 
     return model
 
-def create_XGBoost_model(preprocessor, random_state: int = 42):
-    """
-    Create XGBoost pipeline.
-    """
-    model = Pipeline(
-        steps=[
-            ("preprocessor", preprocessor),
-            ("classifier", XGBClassifier(
-                n_estimators=200,
-                learning_rate=0.05,
-                max_depth=4,
-                subsample=0.8,
-                colsample_bytree=0.8,
-                random_state=random_state,
-                eval_metric='logloss'
-            ))
-        ]
-    )
-
-    return model
-
 def train_test_split_with_ids(
     X,
     y,
@@ -144,4 +122,3 @@ def train_test_split_with_ids(
         random_state=random_state,
         stratify=y
     )
-

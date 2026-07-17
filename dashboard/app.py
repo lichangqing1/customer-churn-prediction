@@ -59,7 +59,7 @@ def load_dashboard_data(database_url: str) -> dict[str, pd.DataFrame]:
             data["quality"] = query("""
                 SELECT * FROM meta_data_quality_results
                 WHERE run_id = (SELECT run_id FROM meta_pipeline_runs ORDER BY completed_at_utc DESC LIMIT 1)
-            """, conn)
+            """)
         else:
             data["quality"] = pd.DataFrame()
 

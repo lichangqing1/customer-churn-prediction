@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 
 
 def standardize_column_names(df: pd.DataFrame) -> pd.DataFrame:
