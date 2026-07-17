@@ -1,0 +1,16 @@
+feature,importance
+num__avg_charge_per_tenure,-1.8922786696077658
+num__tenure,-0.701602696684323
+cat__contract_Two year,-0.5905171290949781
+cat__internet_service_DSL,-0.5508715983803697
+num__is_long_term_contract,-0.4575736424049884
+cat__multiple_lines_No,-0.2523548582193553
+cat__paperless_billing_No,-0.24890440008907982
+cat__online_backup_No internet service,-0.219508446895443
+cat__online_security_No internet service,-0.219508446895443
+cat__internet_service_No,-0.219508446895443
+cat__tech_support_No internet service,-0.219508446895443
+cat__streaming_tv_No internet service,-0.219508446895443
+cat__streaming_movies_No internet service,-0.219508446895443
+cat__device_protection_No internet service,-0.219508446895443
+cat__dependents_Yes,-0.18749482120045796

@@ -1,0 +1,31 @@
+gender,senior_citizen,partner,dependents,tenure,phone_service,multiple_lines,internet_service,online_security,online_backup,device_protection,tech_support,streaming_tv,streaming_movies,contract,paperless_billing,payment_method,monthly_charges,total_charges,avg_charge_per_tenure,high_monthly_charge,short_tenure,is_long_term_contract,customer_id,actual_churn,churn_risk_score,risk_level,recommended_action
+Male,1,Yes,No,1,Yes,Yes,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,95.1,95.1,47.55,1,1,0,5178-LMXOP,1,0.979592021237494,High Risk,Offer long-term contract discount
+Male,0,No,No,1,Yes,Yes,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,95.45,95.45,47.725,1,1,0,0295-PPHDO,1,0.975137070485348,High Risk,Offer long-term contract discount
+Female,1,No,No,1,Yes,Yes,Fiber optic,No,No,No,No,No,Yes,Month-to-month,Yes,Electronic check,85.05,85.05,42.525,1,1,0,1069-XAIEM,1,0.9672895224889304,High Risk,Offer long-term contract discount
+Male,0,No,No,1,Yes,No,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,88.35,88.35,44.175,1,1,0,3722-WPXTK,1,0.9637095082846988,High Risk,Offer long-term contract discount
+Male,0,No,No,1,Yes,No,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,89.55,89.55,44.775,1,1,0,0970-ETWGE,1,0.9637012574656084,High Risk,Offer long-term contract discount
+Female,0,Yes,Yes,1,Yes,Yes,Fiber optic,Yes,No,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,102.45,102.45,51.225,1,1,0,7181-BQYBV,1,0.962365972934641,High Risk,Offer long-term contract discount
+Female,1,No,No,1,Yes,No,Fiber optic,No,No,Yes,No,No,Yes,Month-to-month,Yes,Electronic check,85.0,85.0,42.5,1,1,0,6230-BSUXY,1,0.955212894962592,High Risk,Offer long-term contract discount
+Male,1,No,No,1,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,76.45,76.45,38.225,1,1,0,9248-OJYKK,1,0.9520093285038238,High Risk,Offer long-term contract discount
+Male,0,Yes,No,2,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,No,Month-to-month,Yes,Electronic check,91.45,171.45,57.15,1,1,0,4927-WWOOZ,0,0.9512951593105452,High Risk,Offer long-term contract discount
+Female,0,No,No,1,Yes,Yes,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,No,Mailed check,95.65,95.65,47.825,1,1,0,6857-VWJDT,1,0.9498218929216704,High Risk,Offer long-term contract discount
+Male,0,No,No,1,Yes,No,Fiber optic,No,No,Yes,No,Yes,No,Month-to-month,Yes,Electronic check,84.85,84.85,42.425,1,1,0,2202-CUYXZ,1,0.9485806490786324,High Risk,Offer long-term contract discount
+Female,0,No,No,2,Yes,No,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,90.4,168.2,56.06666666666666,1,1,0,2034-GDRCN,1,0.9470582761522596,High Risk,Offer long-term contract discount
+Male,0,No,No,1,Yes,No,Fiber optic,No,No,No,No,Yes,No,Month-to-month,Yes,Electronic check,79.5,79.5,39.75,1,1,0,2514-GINMM,1,0.9453930965221536,High Risk,Offer long-term contract discount
+Male,1,Yes,No,3,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,105.9,334.65,83.6625,1,1,0,1400-MMYXY,1,0.9453132440495158,High Risk,Offer long-term contract discount
+Male,0,No,No,1,Yes,Yes,Fiber optic,No,Yes,No,No,No,Yes,Month-to-month,Yes,Credit card (automatic),90.85,90.85,45.425,1,1,0,5167-ZFFMM,1,0.9440386619622732,High Risk,Offer long-term contract discount
+Female,0,No,No,3,Yes,Yes,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,96.6,291.9,72.975,1,1,0,9057-SIHCH,1,0.943728259657938,High Risk,Offer long-term contract discount
+Female,0,No,No,1,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,74.5,74.5,37.25,1,1,0,4415-IJZTP,1,0.943111459515294,High Risk,Offer long-term contract discount
+Female,0,No,No,1,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,77.15,77.15,38.575,1,1,0,2609-IAICY,1,0.9430835042734976,High Risk,Offer long-term contract discount
+Male,0,Yes,No,2,Yes,No,Fiber optic,No,No,No,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,94.2,167.5,55.833333333333336,1,1,0,7218-HKQFK,1,0.9428072668403146,High Risk,Offer long-term contract discount
+Male,0,No,No,1,Yes,No,Fiber optic,No,Yes,No,No,No,Yes,Month-to-month,Yes,Electronic check,85.0,85.0,42.5,1,1,0,1628-BIZYP,0,0.9426068240709854,High Risk,Offer long-term contract discount
+Female,0,Yes,No,6,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,105.3,545.2,77.88571428571429,1,1,0,4587-VVTOX,1,0.9422148018291366,High Risk,Offer long-term contract discount
+Female,0,No,No,2,Yes,Yes,Fiber optic,No,No,No,No,No,Yes,Month-to-month,Yes,Electronic check,85.7,169.8,56.6,1,1,0,1143-NMNQJ,1,0.941458968044433,High Risk,Offer long-term contract discount
+Male,1,Yes,No,7,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,99.25,665.45,83.18125,1,1,0,6861-XWTWQ,1,0.9410052410790268,High Risk,Offer long-term contract discount
+Female,1,No,No,2,Yes,Yes,Fiber optic,No,No,No,No,No,Yes,Month-to-month,Yes,Electronic check,84.05,186.05,62.01666666666667,1,1,0,2545-EBUPK,0,0.9388586218047364,High Risk,Offer long-term contract discount
+Female,0,No,No,3,Yes,No,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,89.45,240.45,60.1125,1,1,0,9611-CTWIH,1,0.938278383504487,High Risk,Offer long-term contract discount
+Female,1,Yes,No,4,Yes,Yes,Fiber optic,No,No,No,No,Yes,No,Month-to-month,Yes,Electronic check,83.25,308.05,61.61,1,1,0,6630-UJZMY,0,0.938259369551236,High Risk,Offer long-term contract discount
+Male,1,Yes,No,1,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,No,Electronic check,74.3,74.3,37.15,1,1,0,8775-ERLNB,0,0.9371263368854952,High Risk,Offer long-term contract discount
+Male,0,No,No,3,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,100.95,329.95,82.4875,1,1,0,6023-YEBUP,1,0.9359140363814296,High Risk,Offer long-term contract discount
+Male,1,Yes,No,7,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,101.95,700.85,87.60625,1,1,0,8884-ADFVN,1,0.9355378106448546,High Risk,Offer long-term contract discount
+Male,0,Yes,Yes,1,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,74.5,74.5,37.25,1,1,0,7180-PISOG,1,0.9354276904175176,High Risk,Offer long-term contract discount

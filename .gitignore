@@ -1,0 +1,16 @@
+.venv/
+venv/
+.idea/
+__MACOSX/
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.airflow/
+*.sqlite.tmp
+data/warehouse/*.sqlite
+data/processed/*.csv
+results/warehouse_exports/
+results/mart_exports/
+results/spark_gold/
+results/powerbi_exports/

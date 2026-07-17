@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+xgboost
+jupyter
+pytest
+streamlit>=1.35,<2
+SQLAlchemy>=2,<3
+psycopg[binary]>=3.1,<4
+# Airflow is intentionally optional; install requirements-airflow.txt for orchestration.

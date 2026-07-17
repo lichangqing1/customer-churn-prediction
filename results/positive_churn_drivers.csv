@@ -1,0 +1,16 @@
+feature,importance
+cat__internet_service_Fiber optic,0.6095602323347631
+num__monthly_charges,0.47351325371527436
+num__total_charges,0.33596128237628037
+cat__contract_One year,0.290629493154133
+cat__streaming_movies_Yes,0.2441109806336501
+cat__payment_method_Electronic check,0.2349849706679212
+cat__streaming_tv_Yes,0.23288729512543524
+cat__online_security_No,0.17875023733592058
+cat__tech_support_No,0.14340935108243597
+cat__contract_Month-to-month,0.13906782299979187
+cat__multiple_lines_Yes,0.13900681569144774
+num__short_tenure,0.1294459273092496
+cat__paperless_billing_Yes,0.08808458714802801
+cat__online_backup_No,0.06638574994539376
+cat__device_protection_Yes,0.061626021865329186
