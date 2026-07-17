@@ -10,9 +10,7 @@ This folder contains the project documentation for the Customer Churn Analytics 
 | [`WAREHOUSE_DESIGN.md`](WAREHOUSE_DESIGN.md) | Explains the Bronze, Silver, dimension, fact, Gold, mart, and audit layers. |
 | [`DATA_QUALITY_MONITORING.md`](DATA_QUALITY_MONITORING.md) | Documents the implemented quality checks and the Data Quality Monitor dashboard page. |
 | [`POWERBI_DASHBOARD_GUIDE.md`](POWERBI_DASHBOARD_GUIDE.md) | Explains how to build the five Power BI pages from the exported mart CSV files. |
-| [`OPTIONAL_DEPLOYMENT_ARCHITECTURE.md`](OPTIONAL_DEPLOYMENT_ARCHITECTURE.md) | Summarizes optional Docker/PostgreSQL, Airflow, PySpark, and Power BI deployment paths. |
 | [`PRODUCTION_READINESS.md`](PRODUCTION_READINESS.md) | Summarizes what is production-style, what remains portfolio-level, and what should be improved for real deployment. |
-| [`COLAB_EXECUTION.md`](COLAB_EXECUTION.md) | Provides Google Colab setup and execution steps. |
 | [`PROJECT_PORTFOLIO_CN.md`](PROJECT_PORTFOLIO_CN.md) | Chinese portfolio explanation for interviews and resumes. |
 
 ## Dashboard screenshots

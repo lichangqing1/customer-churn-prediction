@@ -224,9 +224,7 @@ pytest -q
 - **PostgreSQL + Docker:** `docker compose up --build`
 - **Airflow:** install `requirements-airflow.txt` and use the DAG in `dags/`
 - **PySpark:** install `requirements-spark.txt` and run the script in `spark/`
-- **Google Colab:** follow [Colab Execution](docs/COLAB_EXECUTION.md)
-
-These paths are summarized in [Optional Deployment Architecture](docs/OPTIONAL_DEPLOYMENT_ARCHITECTURE.md). Production limitations and next steps are documented in [Production Readiness](docs/PRODUCTION_READINESS.md).
+Production limitations and next steps are documented in [Production Readiness](docs/PRODUCTION_READINESS.md).
 
 ## Documentation
 
